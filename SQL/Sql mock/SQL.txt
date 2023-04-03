@@ -1,0 +1,19 @@
+1) DISPLAY ENAME AND HIREDATE AND ALSO DISPLAY EXPERINCE OF EMP IN YEAR
+=> SELECT ENAME,HIREDATE,TRUNC(MONTHS_BETWEEN(SYSDATE,HIREDATE)/12,0) EXP FROM EMP;
+ 
+ ENAME      HIREDATE         EXP
+---------- --------- ----------
+SMITH      17-DEC-80         42
+ALLEN      20-FEB-81         41
+WARD       22-FEB-81         41
+JONES      02-APR-81         41
+MARTIN     28-SEP-81         41
+BLAKE      01-MAY-81         41
+CLARK      09-JUN-81         41
+SCOTT      19-APR-87         35
+KING       17-NOV-81         41
+TURNER     08-SEP-81         41
+ADAMS      23-MAY-87         35
+JAMES      03-DEC-81         41
+FORD       03-DEC-81         41
+MILLER     23-JAN-82         40
